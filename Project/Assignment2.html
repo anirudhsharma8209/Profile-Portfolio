@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        *::selection{
+            color: lime;
+            border-color: red;
+        }
+        .body img{
+            position: fixed;
+            height: 100vh;
+            width: 100%;
+        }
+        .wrap{
+            position: relative;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 100px;
+            width: 100%;
+        }
+        .part1 button{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            height: 40px;
+            width: 150px;
+            background: none;
+            border: 3px solid white;
+        }
+        .part1 button:hover{
+            background-color: orange;
+            color: black;
+            transition: 0.35s;
+            border: orange;
+        }
+        /* .part2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 40px;
+            border-radius: 5px;
+            border: 2px solid white;
+            width: 300px;
+        } */
+        .part2 [type="text"]{
+            height: 40px;
+            border: none;
+            border: 2px solid white;
+            padding-left: 30px;
+            width: 300px;
+        }
+        .part2 i{
+            position: relative;
+            color: gray;
+            left: 40px;
+            font-size: 20px;
+        }
+        .part2 ::placeholder{
+            color: gray;
+            font-size: 15px;
+            padding: 30px;
+        }
+        .part3 a{
+            color: white;
+            font-size: 20px;
+            margin-left: 25px;
+            text-decoration: none;
+        }
+        .part4 button{
+            background-color: orange;
+            border: none;
+            border-radius: 5px;
+            height: 40px;
+            width: 100px;
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .part5 i{
+            color: white;
+            font-size: 20px;
+        }
+        /*  */
+        .text h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            position: absolute;
+            top: 30%;
+            left: 30%;
+            font-size: 50px;
+        }
+        .text p{
+            position: absolute;
+            top: 45%;
+            left: 36%;
+            color: white;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .bar{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: absolute;
+            top: 53%;
+            left: 20%;
+            padding-left: 10px;
+            padding-right: 10px;
+            height: 50px;
+            width: 60%;
+            border-radius: 3px;
+            background-color: white;
+        }
+        /*  */
+        .bar .part1 p{
+            color: black;
+            background-color: white;
+        }
+        .bar .part2 p{
+            color: black;
+            background-color: white;
+        }
+        .bar .part3 p{
+            color: black;
+            background-color: white;
+        }
+        .bar .part4 button{
+            background-color: orange;
+            border: none;
+            border-radius: 5px;
+            height: 40px;
+            width: 130px;
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .bar span i{
+            color: black;
+            font-size: 20px;
+            margin-left: 30px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <img src="pexels-andrew-neel-2312369.jpg">
+    </div>
+    <div class="wrap">
+        <div class="part1">
+            <button> Javaspot </button>
+        </div>
+        <div class="part2">
+           <i class="fas fa-search"></i><input type="text" name="search" placeholder="Search..">
+        </div>
+        <div class="part3">
+            <a href="#">Home</a>
+            <a href="#">Explore</a>
+            <a href="#">Help</a>
+            <a href="#">Events</a>
+            <a href="#">Mazine</a>
+        </div>
+        <div class="part4">
+            <button>Javaspot</button>
+        </div>
+        <div class="part5">
+            <i class="fas fa-search"></i>
+        </div>
+    </div>
+    <div class="text">
+        <h1>WELCOME JAVASPOT</h1>
+        <p>Find the best place from local in 190+ countries</p>
+    </div>
+    <div class="bar">
+        <div class="part1">
+            <p>All catogries <span>   <i class="fas fa-angle-down"></i></span></p>
+        </div>
+        <div class="part2">
+            <p>All Location <span>   <i class="fas fa-angle-down"></i></p>
+        </div>
+        <div class="part3">
+            <p>Keyword <span>   <i class="fas fa-angle-down"></i></p>
+        </div>
+        <div class="part4">
+            <button>Javaspot</button>
+        </div>
+    </div>
+</body>
+</html>

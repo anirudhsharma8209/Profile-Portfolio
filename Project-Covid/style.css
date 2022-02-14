@@ -1,0 +1,370 @@
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+img{
+    cursor: pointer;
+}
+
+/* Media Queries */
+@media screen and (max-width: 425px){
+    #nav{
+        background-color: lightgray;
+        position: fixed;
+        z-index: 99;
+        box-shadow: 4px 4px 5px lightgray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 42%;
+        transition: 0.5s;
+        color: white;
+    }
+}
+
+
+/*  */
+nav{
+    display: flex;
+    background-color:whitesmoke;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    justify-content: space-around;
+    height: 70px;
+    top: 0;
+    box-shadow: 2px 2px 5px lightgray;
+}
+nav .rocket img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 85vh;
+    left: 1060px;
+}
+.navi a{
+    text-decoration: none;
+    color: gray;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.navi a:hover{
+    color: red;
+    transition: 0.3s;
+}
+.logo .c{
+    color: red;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+/* .button button{
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    background-color: red;
+    color: lightgray;
+    font-size: bold;
+    box-shadow: 3px 3px 20px lightgray;
+}
+.button button:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+} */
+/* Nav Finished */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    height: 95vh;
+}
+/* .quotion{
+    margin-right: 220px;
+} */
+.quotion h1{
+    font-size: 45px;
+    color:rgba(0, 0, 0, 0.63);
+    margin-bottom: 5px;
+}
+.quotion span{
+    font-size: 30px;
+}
+.quotion h2{
+    margin-bottom: 5px;
+    color: red;
+    font-size: 25px;
+}
+.quotion p{
+    font-size: 20px;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.315);
+}
+.quotion button{
+    padding: 10px 10%;
+    color: white;
+    border-radius: 30px;
+    margin-top: 15px;
+    box-shadow: 3px 3px 10px gray;
+    background-color: red;
+    border: none;
+    font-size: 20px
+}
+.quotion button:hover{
+    background-color: gray;
+    transition: 0.5s;
+}
+.banner img{
+    width: 90%;
+    height: 490px;
+}
+/* Haeder Finished */
+.protect h1{
+    color: gray;
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+.protect span{
+    color: red;
+}
+.container{
+    width: 100%;
+}
+.container div{
+    display: inline-block;
+    height: 400px;
+    width: 25%;
+    box-shadow: 2px 2px 5px lightgray;
+    margin: 51px;
+}
+.container img{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.container img:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+.container h1{
+    color:rgba(0, 0, 0, 0.700);
+    text-align: center;
+    margin-top: 5px;
+}
+.container p{
+    text-align: center;
+    color:rgba(0, 0, 0, 0.315);
+}
+.container button{
+    background-color: red;
+    padding: 10px 15%;
+    margin-top: 9px;
+    margin-left: 68px;
+    color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+}
+.container button:hover{
+    letter-spacing: 1px;
+    transition: 0.2s;
+    background-color: gray;
+}
+/* Aside Section Finished */
+section{
+    width: 96%;
+    margin: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.symptom h1{
+    color:rgba(0, 0, 0, 0.500);
+    font-size: 30px;
+}
+.symptom span{
+    color: red;
+    font-size: 30px;
+}
+.symptom ul{
+    margin: 20px;
+    color: rgb(201, 201, 201);
+    font-size: 20px;
+}
+.symptom p{
+    color:rgba(0, 0, 0, 0.315);
+    font-size: 20px;
+}
+.symptom button{
+    color: white;
+    padding: 10px 7%;
+    background-color: red;
+    border-radius: 30px;
+    border: none;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.symptom button:hover{
+    background-color: gray;
+    transition: 0.5s;
+    transform: rotateX(360deg);
+    box-shadow: 2px 2px 10px lightgray;
+}
+ul li {
+    color: rgb(187, 187, 187);
+    font-style: italic;
+    font-size: 20px;
+    margin: 5px;
+}
+.image img{
+    margin-top: 20px;
+    height: 450px;
+    width: 90%;
+}
+/* Main section Finished */
+.con1{
+    background-color: rgba(0, 0, 0, 0.863);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.con1 img{
+    height: 600px;
+    width: 85%;
+    position: relative;
+}
+.text{
+    margin: 30px;
+}
+.text h1{
+    color: white;
+    margin: 20px;
+    font-size: 35px;
+}
+.text span{
+    color: red;
+}
+.text p{
+    color: lightgray;
+    font-style: italic;
+    font-size: 15px;
+    margin: 20px;
+    line-height: 30px;
+}
+.text ul li{
+    margin: 5px;
+    font-style: italic;
+    color :lightgray;
+    margin: 20px;
+}
+/* Part1 Finished */
+.con2{
+    background-color: rgba(0, 0, 0, 0.863);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.text2{
+    margin: 40px;
+}
+.text2 h1{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.text2 span{
+    color: red;
+}
+.text2 p{
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
+    font-style: italic;
+    color: lightgray;
+}
+.text2 ul li {
+    color: rgb(202, 194, 194);
+    font-style: italic;
+    margin: 20px;
+}
+.img2 img{
+    height: 700px;
+    width: 90%;
+    position: relative;
+}
+/* Part2 Finished */
+.content{
+   width: 100%;
+}
+.content div{
+    margin: 50px;
+    display: inline-block;
+    width: 25%;
+    height: 300px;
+    margin-top: 70px;
+    box-shadow: 3px 3px 10px gray;
+}
+.content h1{
+    margin-top: 30px;
+    color: gray;
+    font-size: 30px;
+}
+.content h2{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    line-height: 50px;
+    top: -20px;
+    /* justify-content: center; */
+    text-align: center;
+    left: -20px;
+    color: white;
+    background-color: red;
+    border-radius: 100%;
+}
+.content span{
+    color: red;
+}
+.content img{
+    margin-left: 50px;
+    height: 200px;
+    width: 200px;
+}
+.content img:hover{
+    transition: 0.5s;
+    transform: scale(0.9);
+}
+.content h1{
+    color: gray;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+/* Content1 Finished */
+.content2 h1{
+    color: gray;
+    text-align: center;
+    font-size: 30px;
+}
+.content2 span{
+    color: red;
+}
+/*  */
+.content3{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.863);
+    align-items: center;
+    justify-content: space-around;
+}
+.content3 span{
+    color: white;
+    font-size: 27px;
+    margin-right: 260px;
+}

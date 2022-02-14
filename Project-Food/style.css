@@ -1,0 +1,404 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    cursor: pointer;
+}
+
+/* ================== Media Query's ==================*/
+
+/* @media (max-width: 740px){
+    .banner{
+        width: 735px;
+    }
+}
+@media (max-width: 360px){
+    nav {
+        width: 360px;
+    }
+} */
+
+/* ================== Media Query's =================== */
+.banner img{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    position: absolute;
+    top: 35px;
+    left: 110px;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+    align-items: center;
+}
+nav a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 19px;
+    font-family: sans-serif;
+    margin-left: 47px;
+}
+nav a:hover{
+    color: deeppink;
+    transition: 0.8s;
+}
+.logo h1{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-right: 280px;
+}
+.logo span{
+    color: deeppink;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+/* Header Section Started */
+.quot h1{
+    position: absolute;
+    top: 200px;
+    left: 260px;
+    font-size: 70px;
+    font-family: sans-serif;
+    color: white;
+}
+.quot p{
+    position: absolute;
+    top: 280px;
+    text-align: center;
+    left: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+.quot a button{
+    position: absolute;
+    top: 350px;
+    left: 550px;
+    background-color: rgb(255, 0, 136);
+    padding: 10px 3%;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.quot a button:hover{
+    background-color: hotpink;
+    transition: 0.5s;
+    transform: scale(0.8);
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    transition: 0.9s;
+    padding: 20px;
+}
+/*
+.logo2 h1{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-right: 280px;
+}
+main span{
+    color: red;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.nav a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    font-family: sans-serif;
+    margin-left: 47px;
+} */
+.about_section{
+   margin: 20px;
+   font-family: sans-serif;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+.about_section .a1{
+    font-size: 25px;
+    color: deeppink;
+}
+.about_section .a2{
+    color: deeppink;
+    font-size: 25px;
+}
+.about h1{
+    font-size: 40px;
+}
+.about span{
+    color: black;
+    font-size: 25px;
+}
+.about .a1{
+    color: deeppink;
+    font-size: 100x;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.about p{
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.about_image img{
+    width: 700px;
+    box-shadow: 2px 2px 10px black;
+    height: 450px;
+}
+/* About Section Finished */
+.menu h1{
+    color: black;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.menu span{
+    color: deeppink;
+    font-size: 40px;
+}
+.menu p{
+    color: black;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.our_menu1{
+    width: 100%;
+}
+.our_menu1 div{
+    display: inline-block;
+    width: 30%;
+    margin-left: 30px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.349);
+    height: 50%;
+}
+.our_menu1 img{
+    height: 350px;
+    width: 350px;
+    margin: 15px;
+    margin-bottom: 10px;
+}
+.our_menu1 img:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+.our_menu2{
+    margin-top: 30px;
+    width: 100%;
+}
+.our_menu2 div{
+    display: inline-block;
+    width: 30%;
+    margin-left: 30px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.349);
+    height: 45%;
+}
+.our_menu2 img:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+.our_menu2 img{
+    height: 350px;
+    width: 350px;
+    margin: 15px;
+    margin-bottom: 10px;
+}
+section span{
+    font-family: sans-serif;
+    color: black;
+    margin-left: 15px;
+    font-size: 25px; 
+}
+section button{
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    align-items: center;
+    margin-bottom: 7px;
+    margin-left: 140px;
+    font-size: 20px;
+}
+section button:hover{
+    color: deeppink;
+    transition: 0.2s;
+}
+/* Section Finished */
+
+.expert h1{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+.expert span{
+    color: deeppink;
+    font-size: 40px;
+    
+}
+.expert p{
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.our_expert{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    width: 30%;
+    margin: 90px;
+    justify-content: space-between;
+}
+.our_expert img{
+    margin-left: 20px;
+    height: 300px;
+    width: 250px;
+}
+.our_expert span{
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+/* Expert Section Finished */
+.testi img{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.testi h1{
+    margin-top: 20px;
+    font-size: 30px;
+    position: relative;
+    font-family: sans-serif;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    color: white;
+}
+.testi h2{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.testi span{
+    color: deeppink;
+    font-size: 40px;
+}
+.testi h5{
+    color: deeppink;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.testimonial{
+    width: 100%;
+}
+.testimonial div{
+    width: 30%;
+    height: 60%;
+    position: relative;
+    background-color: #fff;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+.testimonial img{
+    width: 80px;
+    height: 80px;
+    margin-left: 150px;
+    position: relative;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.testimonial p{
+    opacity: 0.5;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+/* Testimoials Finished */
+.contact img{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.contact h1{
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.contact span{
+    color: deeppink;
+    font-size: 40px;
+}
+.contact p{
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+/* Form */
+table{
+    padding: 30px;
+    height: 450px;
+    width: 40%;
+    margin: 30px;
+    position: relative;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: left;
+    box-shadow: 2px 2px 10px black;
+}
+table th input{
+    padding: 20px;
+    width: 80%;
+    border: 1px solid black;
+}
+table button{
+    padding: 10px 7%;
+    background-color: deeppink;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    border: none;
+    font-size: 20px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px black;
+}
+table #mes{
+    width: 90%;
+    height: 80px;
+}
+table button:hover{
+    letter-spacing: 5px;
+    transition: 0.5s;
+}
